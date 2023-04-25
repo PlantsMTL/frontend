@@ -1,0 +1,92 @@
+.home-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-image {
+    padding-top: 65px;
+}
+
+.home-card {
+    margin-top: 30px;
+    width: 330px;
+    padding: 26px;
+}
+
+.home-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-content-division {
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.home-content-line {
+    width: 110px;
+    border: 1px solid #B6CDBD;
+}
+
+.home-content-text {
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+    color: #B6CDBD;
+    padding: 0px 15px;
+
+}
+
+.login-form {
+    margin-top: 33px;
+}
+
+.base-input {
+    background: #ECECEC;
+    border: 1px solid #B6CDBD;
+    color: #B6CDBD;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 10px 25px 10px 45px;
+
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+}
+
+.base-input::placeholder {
+    color: #B6CDBD;
+}
+
+.btn-content {
+    margin-top: 28px;
+    width: 100%;
+}
+
+.image-user {
+    position: absolute;
+    margin-left: +15px;
+    margin-top: +11px;
+}
+
+.image-pass {
+    position: absolute;
+    margin-left: +15px;
+    margin-top: +10px;
+}
+
+.home-content-networks {
+    display: block;
+
+}

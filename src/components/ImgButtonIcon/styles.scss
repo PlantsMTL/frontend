@@ -1,0 +1,41 @@
+.default-button {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.btn-icon-content {
+    /* background-color: #839AD7; */
+    padding: 12px 65px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+    color: #ECECEC;
+    border-radius: 10px;
+    height: 45px;
+    width: 277px;
+    text-align: left;
+}
+
+.background-facebook {
+    background-color: #839AD7;
+}
+
+.btn-icon-content-red {
+    background-color: #D78383;
+}
+
+.btn-icon-content-black {
+    background-color: #191B21;
+}
+
+.btn-icon-img {
+    width: 70px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    color: #ECECEC;
+    margin-left: +4px;
+    margin-top: +12px;
+
+}
