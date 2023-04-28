@@ -9,11 +9,11 @@ type Icons = 'Facebook' | 'Google' | 'Github';
 const getIconFromName = (iconName: Icons) => {
     switch (iconName) {
         case 'Facebook':
-            return <FaceIcon />;
+            return <FaceIcon data-testid="face-icon" />;
         case 'Github':
-            return <GithubIcon />;
+            return <GithubIcon data-testid="git-icon" />;
         case 'Google':
-            return <GoogleIcon />;
+            return <GoogleIcon data-testid="google-icon" />;
     }
 }
 
