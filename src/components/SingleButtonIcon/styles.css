@@ -10,3 +10,7 @@
     height: 45px;
 
 }
+
+.btn-icon:hover {
+    color: #ECECEC;
+}

@@ -20,7 +20,7 @@ const getIconFromName = (iconName: Icons) => {
 const ImgButtonIcon = ({ iconName }: { iconName: Icons }) => {
 
     const icon = getIconFromName(iconName);
-    const buttonClass = `btn btn-primary ${iconName === 'Facebook' ? 'background-facebook' : ''} ${iconName === 'Google' ? 'btn-icon-content-red' : ''} ${iconName === 'Github' ? ' btn-icon-content-black' : ''} btn-icon-content`;
+    const buttonClass = `btn btn-primary ${iconName === 'Facebook' ? 'background-facebook' : ''} ${iconName === 'Google' ? 'background-google' : ''} ${iconName === 'Github' ? 'background-github' : ''} btn-icon-content`;
 
     return (
         <div className='default-button'>

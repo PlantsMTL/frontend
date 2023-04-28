@@ -17,15 +17,19 @@
     text-align: left;
 }
 
+.btn-icon-content:hover {
+    color: #ECECEC;
+}
+
 .background-facebook {
     background-color: #839AD7;
 }
 
-.btn-icon-content-red {
+.background-google {
     background-color: #D78383;
 }
 
-.btn-icon-content-black {
+.background-github {
     background-color: #191B21;
 }
 
@@ -37,5 +41,4 @@
     color: #ECECEC;
     margin-left: +4px;
     margin-top: +12px;
-
 }
