@@ -3,7 +3,7 @@ import { ReactComponent as MainImage } from 'assets/images/login-plant.svg';
 import { ReactComponent as LoginIconUser } from 'assets/images/login-input-username.svg';
 import { ReactComponent as LoginIconPass } from 'assets/images/login-input-password.svg';
 import './styles.css';
-import SingleButtonIcon from 'components/SingleButtonIcon';
+import SingleButton from 'components/SingleButton';
 import ImgButtonIcon from 'components/ImgButtonIcon';
 
 const Login = () => {
@@ -22,7 +22,7 @@ const Login = () => {
                         <input name='password' className='base-input' placeholder='Password' />
                     </div>
                     <div className='btn-content'>
-                        <SingleButtonIcon text={"Go"} />
+                        <SingleButton text={"Go"} />
                     </div>
                     <div className='home-content-division'>
                         <div className='home-content-line'></div>

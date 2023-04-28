@@ -4,11 +4,11 @@ type Props = {
     text: string;
 }
 
-const SingleButtonIcon = ({ text }: Props) => {
+const SingleButton = ({ text }: Props) => {
     return (
         <button className="btn btn-primary btn-icon">
             {text}
         </button>
     );
 };
-export default SingleButtonIcon;
+export default SingleButton;
