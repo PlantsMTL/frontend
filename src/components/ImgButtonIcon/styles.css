@@ -4,13 +4,12 @@
 }
 
 .btn-icon-content {
-    /* background-color: #839AD7; */
     padding: 12px 65px;
     font-weight: 500;
     font-size: 16px;
     line-height: 25px;
     letter-spacing: -0.02em;
-    color: #ECECEC;
+    color: var(--light-color);
     border-radius: 10px;
     height: 45px;
     width: 277px;
@@ -18,19 +17,19 @@
 }
 
 .btn-icon-content:hover {
-    color: #ECECEC;
+    color: var(--light-color);
 }
 
 .background-facebook {
-    background-color: #839AD7;
+    background-color: var(--blue-color);
 }
 
 .background-google {
-    background-color: #D78383;
+    background-color: var(--red-color);
 }
 
 .background-github {
-    background-color: #191B21;
+    background-color: var(--black-color);
 }
 
 .btn-icon-img {
@@ -38,7 +37,7 @@
     position: absolute;
     display: flex;
     justify-content: center;
-    color: #ECECEC;
+    color: var(--light-color);
     margin-left: +4px;
     margin-top: +12px;
 }

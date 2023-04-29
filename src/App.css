@@ -18,8 +18,26 @@ h6 {
     margin-bottom: 0;
 }
 
-.base-card {
-    background-color: #F2F9F1;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 40px;
+a,
+a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+:root {
+    --primary-color: ##B6CDBD;
+    --secondary-color: #667850;
+    --primary-bg: #F2F9F1;
+    --light-color: #ECECEC;
+    --grey-light-50-color: #9AAABE;
+    --grey-light-100-color: #949494;
+    --grey-light-150-color: #384459;
+    --grey-light--125-color: #72849A;
+    --green-color: #83D79A;
+    --blue-color: #839AD7;
+    --red-color: #D78383;
+    --black-color: #191B21;
+    --white-color: #FFF;
+    --black-shadown: rgba(0, 0, 0, 0.25);
+
 }

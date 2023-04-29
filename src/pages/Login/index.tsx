@@ -16,10 +16,12 @@ const Login = () => {
                 <div className="home-content-container">
                     <h1>Sign In</h1>
                     <div className='login-form'>
-                        <LoginIconUser className='image-user' />
-                        <input name='username' className='base-input' placeholder='Username' />
-                        <LoginIconPass className='image-pass' />
-                        <input name='password' className='base-input' placeholder='Password' />
+                        <form>
+                            <LoginIconUser className='image-user' />
+                            <input type='email' name='username' className='base-input' placeholder='Username' />
+                            <LoginIconPass className='image-pass' />
+                            <input type='password' name='password' className='base-input' placeholder='Password' />
+                        </form>
                     </div>
                     <div className='btn-content'>
                         <SingleButton text={"Go"} />
@@ -37,7 +39,7 @@ const Login = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
 
     );
 }

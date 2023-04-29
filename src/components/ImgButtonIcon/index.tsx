@@ -1,4 +1,4 @@
-import './styles.scss';
+import './styles.css';
 import { ReactComponent as FaceIcon } from 'assets/images/facebook-icon.svg';
 import { ReactComponent as GithubIcon } from 'assets/images/github-icon.svg';
 import { ReactComponent as GoogleIcon } from 'assets/images/google-icon.svg';
