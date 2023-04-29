@@ -46,3 +46,9 @@ a:hover {
     --white-color: #FFF;
     --black-shadown: rgba(0, 0, 0, 0.25);
 }
+
+.base-card {
+    background-color: var(--primary-bg);
+    box-shadow: 0px 4px 20px var(--black-shadown);
+    border-radius: 40px;
+}
