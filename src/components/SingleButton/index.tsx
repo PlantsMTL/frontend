@@ -7,7 +7,9 @@ type Props = {
 const SingleButton = ({ text }: Props) => {
     return (
         <button className="btn btn-primary btn-sgl">
-            {text}
+            <h4>
+                {text}
+            </h4>
         </button>
     );
 };

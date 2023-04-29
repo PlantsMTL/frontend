@@ -43,9 +43,6 @@
 }
 
 .home-content-text {
-    font-size: 16px;
-    line-height: 25px;
-    letter-spacing: -0.02em;
     padding: 0px 15px;
 
 }
@@ -62,9 +59,6 @@
     border-radius: 10px;
     width: 100%;
     padding: 10px 25px 10px 45px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
     line-height: 25px;
     letter-spacing: -0.02em;
     display: flex;

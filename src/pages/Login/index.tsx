@@ -28,7 +28,7 @@ const Login = () => {
                     </div>
                     <div className='home-content-division'>
                         <div className='home-content-line'></div>
-                        <div className='home-content-text'>Or</div>
+                        <div className='home-content-text'><h4>Or</h4></div>
                         <div className='home-content-line'></div>
                     </div>
                     <div className="home-content-networks">

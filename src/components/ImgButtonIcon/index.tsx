@@ -25,7 +25,7 @@ const ImgButtonIcon = ({ iconName }: { iconName: Icons }) => {
     return (
         <div className='default-button'>
             <button className={buttonClass}>
-                <h5>{iconName}</h5>
+                <h4>{iconName}</h4>
             </button>
             <div className="btn-icon-img">
                 {icon}

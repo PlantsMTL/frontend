@@ -8,6 +8,9 @@ h1,
 h2 {
     font-weight: 700;
     margin-bottom: 0;
+    font-size: 32px;
+    line-height: 50px;
+    letter-spacing: -0.02em;
 }
 
 h3,
@@ -16,6 +19,9 @@ h5,
 h6 {
     font-weight: 500;
     margin-bottom: 0;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.02em;
 }
 
 a,
@@ -39,5 +45,4 @@ a:hover {
     --black-color: #191B21;
     --white-color: #FFF;
     --black-shadown: rgba(0, 0, 0, 0.25);
-
 }

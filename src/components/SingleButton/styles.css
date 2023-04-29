@@ -1,14 +1,10 @@
 .btn-sgl {
     background-color: var(--green-color);
     padding: 0px 0px;
-    font-size: 16px;
-    line-height: 25px;
-    letter-spacing: -0.02em;
     color: var(--white-color);
     width: 100%;
     border-radius: 10px;
     height: 45px;
-
 }
 
 .btn-sgl:hover {
