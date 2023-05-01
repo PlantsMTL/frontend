@@ -1,0 +1,93 @@
+.home-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-image {
+    padding-top: 65px;
+}
+
+.home-card {
+    margin-top: 30px;
+    width: 330px;
+    padding: 26px;
+}
+
+.home-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-content-container h1 {
+    color: var(--secondary-color);
+}
+
+.home-content-division {
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.home-content-line {
+    width: 110px;
+    border: 1px solid;
+}
+
+.home-content-text {
+    padding: 0px 15px;
+
+}
+
+.login-form {
+    margin-top: 33px;
+}
+
+.base-input {
+    background: var(--light-color);
+    border: 1px solid;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px 25px 10px 45px;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.base-input:focus {
+    outline: none !important;
+    border: 1px solid var(--primary-color);
+    box-shadow: 0 0 5px var(--secondary-color);
+}
+
+.base-input::placeholder {
+    color: var(--primary-color);
+}
+
+.btn-content {
+    margin-top: 28px;
+    width: 100%;
+}
+
+.image-user {
+    position: absolute;
+    margin-left: +15px;
+    margin-top: +11px;
+}
+
+.image-pass {
+    position: absolute;
+    margin-left: +15px;
+    margin-top: +10px;
+}
+
+.home-content-networks {
+    display: block;
+
+}

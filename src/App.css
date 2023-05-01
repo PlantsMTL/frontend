@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@500;700&display=swap');
+
+* {
+    font-family: 'Vazirmatn', sans-serif;
+}
+
+h1,
+h2 {
+    font-weight: 700;
+    margin-bottom: 0;
+    font-size: 32px;
+    line-height: 50px;
+    letter-spacing: -0.02em;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+:root {
+    --primary-color: ##B6CDBD;
+    --secondary-color: #667850;
+    --primary-bg: #F2F9F1;
+    --light-color: #ECECEC;
+    --grey-light-50-color: #9AAABE;
+    --grey-light-100-color: #949494;
+    --grey-light-150-color: #384459;
+    --grey-light--125-color: #72849A;
+    --green-color: #83D79A;
+    --blue-color: #839AD7;
+    --red-color: #D78383;
+    --black-color: #191B21;
+    --white-color: #FFF;
+    --black-shadown: rgba(0, 0, 0, 0.25);
+}
+
+.base-card {
+    background-color: var(--primary-bg);
+    box-shadow: 0px 4px 20px var(--black-shadown);
+    border-radius: 40px;
+}

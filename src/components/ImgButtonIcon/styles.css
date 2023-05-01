@@ -1,0 +1,40 @@
+.default-button {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.btn-icon-content {
+    padding: 12px 65px;
+    letter-spacing: -0.02em;
+    color: var(--light-color);
+    border-radius: 10px;
+    height: 45px;
+    width: 277px;
+    text-align: left;
+}
+
+.btn-icon-content:hover {
+    color: var(--light-color);
+}
+
+.background-facebook {
+    background-color: var(--blue-color);
+}
+
+.background-google {
+    background-color: var(--red-color);
+}
+
+.background-github {
+    background-color: var(--black-color);
+}
+
+.btn-icon-img {
+    width: 70px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    color: var(--light-color);
+    margin-left: +4px;
+    margin-top: +12px;
+}

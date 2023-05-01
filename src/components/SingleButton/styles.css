@@ -1,0 +1,12 @@
+.btn-sgl {
+    background-color: var(--green-color);
+    padding: 0px 0px;
+    color: var(--white-color);
+    width: 100%;
+    border-radius: 10px;
+    height: 45px;
+}
+
+.btn-sgl:hover {
+    color: var(--light-color);
+}

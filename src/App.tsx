@@ -1,9 +1,11 @@
-
+import './assets/styles/custom.scss';
 import './App.css';
+import Login from 'pages/Login';
 
-function App() {
+const App = () => {
   return (
-    <h1>Hello PlantsMTL</h1>
+    <Login />
+
   );
 }
 
