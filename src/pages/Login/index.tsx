@@ -1,5 +1,5 @@
 
-import { ReactComponent as MainImage } from 'assets/images/login-plant.svg';
+import { ReactComponent as MainImage } from 'assets/images/plant-icon.svg';
 import { ReactComponent as LoginIconUser } from 'assets/images/login-input-username.svg';
 import { ReactComponent as LoginIconPass } from 'assets/images/login-input-password.svg';
 import './styles.css';

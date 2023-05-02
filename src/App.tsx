@@ -1,10 +1,10 @@
 import './assets/styles/custom.scss';
 import './App.css';
-import Login from 'pages/Login';
+import Routes from 'Routes';
 
 const App = () => {
   return (
-    <Login />
+    <Routes />
 
   );
 }

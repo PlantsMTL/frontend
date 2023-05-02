@@ -1,0 +1,27 @@
+.navbar-content {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--primary-bg);
+    box-shadow: 0px -8px 8px var(--black-shadown);
+}
+
+.navbar-circle {
+    height: 60px;
+    width: 60px;
+    background-color: var(--primary-bg);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -25px;
+    box-shadow: 0px -px 8px var(--black-shadown);
+
+}
+
+.navbar-img {
+    height: 40px;
+    width: 40px;
+}
