@@ -1,0 +1,43 @@
+.plant-card {
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+
+.plantcard-top {
+    border: solid 1px green;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+.plantcard-mid {
+    border: solid 1px red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.plantcard-mid img {
+    /* border: solid 1px blue; */
+    width: 60px;
+    height: 60px;
+}
+
+.plantcard-img {
+    border: solid 1px blue;
+
+
+}
+
+.plantcard-infos {
+    width: 60px;
+}
+
+.plantcard-lines {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
